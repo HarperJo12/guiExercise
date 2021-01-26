@@ -20,7 +20,7 @@ picture = [
 for rows in picture:
   for pixel in rows:
     if pixel:
-      print(' ', end='')
-    else:
       print('*', end='')
+    else:
+      print(' ', end='')
   print()
